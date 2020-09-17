@@ -14,7 +14,7 @@ System Architecture Document Requirements
 A system architecture document is living document through out the development of the software system. 
 The document needs to evolve along with the system that it is describing. 
 
-An arch document should have the following:
+An architecture document should have the following:
 
 1. Brief scope describing the software system with reference to requirements
    document.
@@ -33,11 +33,11 @@ An arch document should have the following:
    - Teardown time
 
     Interfaces encompass the following
-        - Verbs to describe functionality
-        - Data model described the data coming in and going out of component
-        - Data model for data store component
-        - Metrics to observe the system (observability)
-        - Data model for any configuration required by component
+      - Verbs to describe functionality
+      - Data model described the data coming in and going out of component
+      - Data model for data store component
+      - Metrics to observe the system (observability)
+      - Data model for any configuration required by component
 
    These details will largely cater to the architectural elements **components** and **data** described in reference [1].
 
@@ -65,7 +65,7 @@ An arch document should have the following:
 Documentation Management
 ========================
 
-1. Checkin all these document in a common amagi-architectures git repo.
+1. Checkin all system architecture documents in a common amagi-architectures git repo.
 
 2. Each git repository implementing a part of the system points to the arch document in the landing README.md of the repository.
 
