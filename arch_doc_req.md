@@ -62,6 +62,14 @@ An arch document should have the following:
    - High availability
 
 
+Documentation Management
+========================
+
+1. Checkin all these document in a common amagi-architectures git repo.
+
+2. Each git repository implementing a part of the system points to the arch document in the landing README.md of the repository.
+
+
 References
 ==========
 
