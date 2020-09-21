@@ -75,7 +75,7 @@ References
 
 1. Architectural Styles and the Design of Network-based Software Architectures, Roy Fielding
 
-=====================
+================================================
 
 As the document evolves over time, it might be good to include some information
 about technology chosen to implement and some rationale especially when multiple
